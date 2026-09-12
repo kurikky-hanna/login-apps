@@ -2,7 +2,7 @@
 import streamlit as st
 
 import random
-pyg.mixer.init()
+
 st.title("セキュリティアプリ")
 st.download_button(
     label="コードをダウンロード",
