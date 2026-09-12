@@ -6,7 +6,7 @@ st.set_page_config(
     page_title="給食アレルゲン調査機", page_icon="🔐", layout="centered"
 )
 
-st.title("セキュリティアプリ")
+st.title("セキュリティアプリ🔐")
 st.download_button(
     label="コードをダウンロード",
     data="06032511E",
