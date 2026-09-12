@@ -31,6 +31,6 @@ if codes=="06032511E":
         st.subheader("軽いゲームをしましょう！")
         if not "mikuji" in st.session_state:
             st.session_state.mikuji=["大吉","中吉","小吉","吉","凶"]
-            if st.button("おみくじ"):
-                st.write(st.session_state.mikuji[random.randint(0,4)])
+        if st.button("おみくじ"):
+            st.write(st.session_state.mikuji[random.randint(0,4)])
             
