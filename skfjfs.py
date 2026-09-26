@@ -3,7 +3,7 @@ import streamlit as st
 
 import random
 st.set_page_config(
-    page_title="給食アレルゲン調査機", page_icon="🔐", layout="centered"
+    page_title="セキュリティアプリ🔐", page_icon="🔐", layout="centered"
 )
 
 st.title("セキュリティアプリ🔐")
