@@ -31,7 +31,7 @@ if codes=="06032511E":
         st.text("サインイン成功！")
         st.session_state.bal="inst"
         st.write(f"ようこそ！{st.session_state.names}さん！")
-        st.subheader("軽いゲームをしましょう！")
+        st.subheader("簡単なゲームをしましょう！")
         if not "mikuji" in st.session_state:
             st.session_state.mikuji=["大吉","中吉","小吉","吉","凶"]
         if st.button("おみくじ"):
